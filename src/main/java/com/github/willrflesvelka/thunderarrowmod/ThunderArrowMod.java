@@ -1,5 +1,7 @@
 package com.github.willrflesvelka.thunderarrowmod;
 
+import com.github.willrflesvelka.thunderarrowmod.item.ModItemGroups;
+import com.github.willrflesvelka.thunderarrowmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,5 +13,7 @@ public class ThunderArrowMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
