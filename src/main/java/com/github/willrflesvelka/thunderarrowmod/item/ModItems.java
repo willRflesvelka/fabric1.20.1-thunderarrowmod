@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     // 行を追加するとアイテムを追加できる
     public static final Item THUNDERARROW = registerItem("thunderarrow", new Item(new FabricItemSettings()));
+    public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
 
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries){
         entries.add(THUNDERARROW);

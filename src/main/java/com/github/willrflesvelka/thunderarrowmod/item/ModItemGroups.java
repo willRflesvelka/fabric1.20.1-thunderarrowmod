@@ -16,6 +16,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.THUNDERARROW)).entries((displayContext, entries) -> {
                         // ここにアイテムを追加していく
                         entries.add(ModItems.THUNDERARROW);
+                        entries.add(ModItems.SAPPHIRE);
                     }).build());
 
     public static void registerItemGroups(){
