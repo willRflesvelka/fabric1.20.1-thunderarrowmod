@@ -1,6 +1,7 @@
 package com.github.willrflesvelka.thunderarrowmod.item;
 
 import com.github.willrflesvelka.thunderarrowmod.ThunderArrowMod;
+import com.github.willrflesvelka.thunderarrowmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,8 @@ public class ModItemGroups {
                         // ここにアイテムを追加していく
                         entries.add(ModItems.THUNDERARROW);
                         entries.add(ModItems.SAPPHIRE);
+
+                        entries.add(ModBlocks.SAPPHIRE_BLOCK);
                     }).build());
 
     public static void registerItemGroups(){

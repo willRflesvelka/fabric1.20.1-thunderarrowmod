@@ -2,5 +2,7 @@
   "item.thunderarrowmod.thunderarrow" : "Thunder Arrow",
   "item.thunderarrowmod.sapphire": "Sapphire",
 
+  "block.thunderarrowmod.sapphire_block": "Block of Sapphire",
+
   "itemgroup.thunderarrow": "Thunder Arrow Group"
 }
